@@ -1,0 +1,80 @@
+
+
+
+
+
+.banner {
+    left: 0;
+    top: 0;
+    width: 1920px;
+    height: 330px;
+    background-image: url("../assets/banner.png");
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+.channelLogo {
+    margin: auto;
+    width: 50%;
+    border: 3px solid rgb(165, 165, 165);
+    padding: 10px;
+    width: 140px;
+    height: 147px;
+    border-radius: 400px;
+    background-image: url("../assets/channel_logo.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+
+   
+
+#channel{
+
+    background-color: rgb(111, 111, 209) !important;
+}
+
+.channelName{
+text-align: center;
+}
+
+
+.row_1{
+margin-bottom: 40px;
+margin-top: 50px;
+}
+
+
+.row_2{
+margin-bottom: 10px;
+text-align: center;
+
+}
+.row_3{
+
+margin-top: 50px;
+width: 50%;
+margin-bottom: 10px;
+margin-left: 500px;
+
+}
+.nav-link{
+color:white;
+size: 50px;
+}
+
+.card:hover{
+
+border-color: rgb(0, 0, 0);
+
+
+}
+
+
+.card{
+    width: 18rem;
+}
