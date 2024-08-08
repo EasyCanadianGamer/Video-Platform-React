@@ -1,9 +1,13 @@
-import React from 'react'
 import './home.css'
+import React from 'react';
+
 const home = () => {
+
   return (
 
-    <>
+
+
+<>
     <h1> Welcome to Shit Tube!! </h1>
 
 <p> A place where for your channels are more personalized then any other.</p>
@@ -11,7 +15,10 @@ const home = () => {
 
 <button > <a href='/signup'> Sign Up</a></button>
 <button> <a href = '/login'>Log In</a></button>
-    </>
+
+
+
+    </> 
 
 
 
