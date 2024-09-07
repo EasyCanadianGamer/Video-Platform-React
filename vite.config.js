@@ -19,10 +19,6 @@ export default defineConfig({
     rollupOptions: {
       input: {
         main: resolve(root, "index.html"),
-        about: resolve(root, "about", "index.html"),
-        channel: resolve(root, "channel", "index.html"),
-        login: resolve(root, "login", "index.html"),
-        signup: resolve(root, "signup", "index.html"),
 
 
 
