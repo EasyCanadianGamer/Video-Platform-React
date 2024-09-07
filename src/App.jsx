@@ -1,6 +1,5 @@
 import './App.css'
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import Home from './componenets/home/home';
 import Signup from './componenets/signup/signup';
 import Login from './componenets/login/login';
 import Channel from './componenets/channel/channel';
@@ -9,6 +8,14 @@ import Channel from './componenets/channel/channel';
 function App() {
   return (
     <>
+
+<h1> Welcome to Shit Tube!! </h1>
+
+<p> A place where for your channels are more personalized then any other.</p>
+
+
+<button > <a href='/signup'> Sign Up</a></button>
+<button> <a href = '/login'>Log In</a></button>
 
 
 
@@ -21,7 +28,6 @@ function App() {
         <Route path="/signup" element={<Signup />}/>
         <Route path="/channel" element={<Channel />}/>
 
-        <Route path="/src/" element={<Home/>} />
         </Routes>
       </Router>
 
